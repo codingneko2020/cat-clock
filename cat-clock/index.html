@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta charset="UTF-8">
+	<title>Cat Clock</title>
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/main.css" />
+    <script src="scripts/main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+  
+		<div class="session clearfix">
+		  <div class="work">
+			<p>work session</p>
+			<div id="work_cuttime">-</div>
+			<p id="work_time">25</p>
+			<div id="work_addtime">+</div>
+		  </div>
+
+		  <div class="break">
+			<p>break session</p>
+			<div id="break_cuttime">-</div>
+			<p id="break_time">5</p>
+			<div id="break_addtime">+</div>
+		  </div>
+		  
+		</div>
+		
+		<div class="board">
+		  <div id="cat"><img id="icon" src="https://img.icons8.com/android/66/000000/cat.png" alt=""></div>
+		  <!-- https://img.icons8.com/cotton/80/000000/sleeping-over-the-computer--v2.png
+			   https://img.icons8.com/ios/100/000000/cat-caregivers.png -->
+		  <div class="clock"><p id="zmin"></p><p id="min">25</p><p>:</p><p id="zsec"></p><p id="sec">00</p></div>
+		</div>
+	  
+		<div class="control_btn clearfix">
+		  <div id="start"><img src="https://img.icons8.com/ios/36/FFFFFF/circled-play.png" alt=""></div>
+		  <div id="pause"><img src="https://img.icons8.com/android/36/FFFFFF/pause.png" alt=""></div>
+		  <div id="reset"><img src="https://img.icons8.com/android/34/FFFFFF/recurring-appointment.png" alt=""></div>
+		</div>
+	  
+		<div class="cat_count"></div>
+	  
+	  </div>
+	  
+	  <!---  cat icon https://img.icons8.com/android/24/000000/cat-footprint.png  --->
+</body>
+
+
+</html>
